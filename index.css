@@ -1,0 +1,144 @@
+body{
+    background-color:#56cfe1;
+}
+#title{
+    text-align: center;
+    font-family: Papyrus;
+    color: #313236;
+    width: 100%;
+    margin-top:.5em;
+    margin-bottom:.15em;
+}
+.normaltext{
+    background-color:#caf0f8;
+    text-align: left;
+    padding:.3em;
+    border-radius: .4em;
+    width:fit-content;
+    padding-right:2em;
+    padding-left:2em;
+    padding-top: 1.5em;
+    padding-bottom:1.5em;
+    margin:auto;
+    font-family: Papyrus;
+    font-size: large;
+    margin-bottom: 1.5em;
+    width:80%;
+}
+#topdiv {
+    width:fit-content;
+    text-align:center;
+}
+#menu div {
+    width: 45px;
+    height: 6px;
+    background-color: #4a4e69;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+#menu {
+    padding-top:1em;
+    padding-left:.5em;
+    float: left;
+}
+#topBar {
+    position: fixed;
+    top:0;
+    width:100%;
+    z-index: 100;
+    background-color:#56cfe1;
+    
+}
+#mainBody{
+    margin-top:10em;
+}
+#prettypicture{
+    text-align: center;
+    margin: auto;
+
+}
+#prettypicture img{
+    margin:auto;
+    border-width: 50px;
+    border-color:darkgrey;
+    border-radius:15em;
+    border: solid;
+}
+.normaltext a{
+    font-size:medium;
+}
+#sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 101;
+    top: 0;
+    left: 0;
+    background-color: #4a4e69;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  #sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 2.5em;
+    color: #56cfe1;
+    display: block;
+    transition: 0.3s;
+  }
+#sidenav a:hover {
+    color: #f1f1f1;
+}
+
+#sidenav ul{
+    list-style-type: none;
+    padding:0;
+}
+canvas {
+    background-color:#caf0f8;
+    border-radius: .7em;
+}
+#canvasdiv{
+    margin:auto;
+    width:100%;
+    text-align: center;
+}
+#canvasbuttons{
+    margin:auto;
+    width:100%;
+    text-align: center;
+}  
+#fontchange{
+    font-family: verdana;
+    color:#07b8d3;
+    padding-top:1.5em;
+    padding-bottom:1.5em;
+    font-weight:bold;
+}
+
+table,th,td{
+    border-width: .2em;
+    border: solid rgb(255, 255, 255) 5px;
+    padding: .75em;
+    border-collapse: collapse;
+    border-spacing:0%;
+    
+}
+
+#randomstuff img{
+    display:inlign;
+    margin:auto;
+    float:none;
+}
+#randomstuff{
+    text-align:center;
+}
+
+iframe{
+    display:block;
+    margin:auto;
+}
+
+
+
