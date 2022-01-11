@@ -20,6 +20,7 @@ body{
     padding-top: 1.5em;
     padding-bottom:1.5em;
     margin:auto;
+    margin-right:3em;
     font-family: Papyrus;
     font-size: large;
     margin-bottom: 1.5em;
@@ -37,6 +38,7 @@ body{
     transition: 0.4s;
 }
 #menu {
+    display:none;
     padding-top:1em;
     padding-left:.5em;
     float: left;
@@ -53,9 +55,8 @@ body{
     margin-top:10em;
 }
 #prettypicture{
+    float:left;
     text-align: center;
-    margin: auto;
-
 }
 #prettypicture img{
     margin:auto;
@@ -68,6 +69,7 @@ body{
     font-size:medium;
 }
 #sidenav {
+    display:none;
     height: 100%;
     width: 0;
     position: fixed;
@@ -139,6 +141,3 @@ iframe{
     display:block;
     margin:auto;
 }
-
-
-
