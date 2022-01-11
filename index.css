@@ -18,11 +18,11 @@ body{
     padding-left:2em;
     padding-top: 1.5em;
     padding-bottom:1.5em;
-    margin:auto;
+    margin-right:1em;
     margin-left:18em;
+    margin-bottom: 1.5em;
     font-family: Papyrus;
     font-size: large;
-    margin-bottom: 1.5em;
 }
 #topdiv {
     text-align:center;
