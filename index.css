@@ -20,7 +20,7 @@ body{
     padding-top: 1.5em;
     padding-bottom:1.5em;
     margin:auto;
-    margin-left:5em;
+    margin-left:10em;
     font-family: Papyrus;
     font-size: large;
     margin-bottom: 1.5em;
@@ -61,7 +61,7 @@ body{
     margin:auto;
     border-width: 50px;
     border-color:darkgrey;
-    border-radius:15em;
+    border-radius:0em;
     border: solid;
 }
 .normaltext a{
