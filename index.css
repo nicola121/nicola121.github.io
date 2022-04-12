@@ -138,3 +138,8 @@ iframe{
     display:block;
     margin:auto;
 }
+
+.pdfView {
+    width:90%;
+    height: 500px;
+}
