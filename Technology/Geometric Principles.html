@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<head>
+    <title>
+        Semester Project
+    </title>   
+    <link rel="stylesheet" type="text/css" href="index.css"/>
+    <link rel="stylesheet" type="text/css" href="semesterProject.css"/>
+    <link rel="icon" type="image/png" href="./favicon.png">
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script>
+    MathJax = {
+      tex: {inlineMath: [['$', '$'], ['\\(', '\\)']]}
+    };
+    </script>
+    <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+    <meta charset="UTF-8"/>
+</head>
+<body>
+    
+    <div id="topBar">
+        <div id="menu" onclick="openNav()">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+        <h1 id="title" onclick="closeNav()">
+            <a href="./Semester Project.html">
+             Semester Project: The Unit Circle
+           </a>
+        </h1>
+        <div id="menubuttons">
+            <a href="./History of Unit Circles.html">History of Unit Circles</a>
+            <a href="./Geometric Principles.html">Geometric Principles</a>
+            <a href="./Applications.html">Applications</a>
+            <a href="./Resources.html">Resources</a>
+        </div>
+    </div> 
+    <div id="sidenav" onclick="closeNav()">
+        <ul>
+            <li>
+                <a href="./index.html"> Homepage </a>
+             </li>
+             <li>
+                 <a href="./Semester Project.html"> Semester Project</a>
+              </li>
+              <li>
+                 <a href="./Assignments.html"> Assignments </a>
+              </li>
+            </li>
+            <a href="http://www.math.usu.edu/schneit/Math5010/" target="blank"> Class Webpage </a>
+            </li>
+        </ul>
+    </div>
+    <div id="mainBody" onclick="closeNav()" name="top"> 
+         
+        <div class="normaltext" id="geometricprinciples">
+            <div id="titles"> Geometric Principles</div>
+        <p>There are many important things to know about how to use a unit circle. First, you must 
+            understand how to create angles. The initial side of an angle is a fixed ray. The terminal 
+            side of an angle is a ray that moves either clockwise or counterclockwise (clockwise being 
+            negative and counterclockwise being positive) from the initial fixed ray. "The endpoint that 
+            the ray is rotated around to form the angle is called the vertex"("Angle"). Standard position 
+            for an angle is defined as the vertex being at the origin and the initial side being on the 
+            positive side of the x-axis. 
+        </p>
+        <img src="./Terminal Side.png"> 
+            <p>Angles have measure greater than or equal to 0 degrees and less than or equal to 360 
+                degrees. Angle measure is how we determine the name of the angle:
+        Acute angle - 0&deg; to 90&deg;, Right angle - 90&deg;, Obtuse angle - 90&deg; to 180&deg;
+    </p><img src="./Angle Types.png"> 
+        <p>Theta (&theta;) is a Greek letter that we use to represent angles. It can be a degree measure or a 
+            radian measure. The Radian is a pure measure based on the radius of a circle. 1 Radian is 
+            about 57.2958 degrees. There are \(2\pi\) radians in every circle. Take the length of the 
+            radius of the circle and put it across the circumference of the circle; the corresponding 
+            angle from the initial ray to the terminal ray is 1 radian. The following question may help 
+            you visualize the relationship between a circle and radians. "Imagine you cut pieces of 
+            string exactly the length from the center to the circumference of a circle. How many pieces 
+            do you need to go once around the circle? The answer is \(2\pi\), or 6.283 pieces of string" 
+            ("Radians"). You can use the following website's animations to better visualize these 
+            concepts. 
+            <a href="https://www.mathsisfun.com/geometry/radians.html"  target="blank">Radians to Pi 
+                Translation</a>
+        </p>
+        <img src="./Radian and Radius.png"> 
+       
+         <p>First, we need to develop the unit circle. Kahn Academy created a great video that explains 
+             some basics of creating the unit circle. 
+             <a href="https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:trig/x2ec2f6f830c9fb89:unit-circle/v/unit-circle-definition-of-trig-functions-1" target="blank">
+                 Unit Circle Creation Video</a>. 
+             Let's start with a cartesian coordinate system; draw a circle centered at the origin with 
+             radius 1 (That's why it's called a unit circle). Next label each of the points where the 
+             unit circle and the x and y axis intersect. You will then have the points labeled, (1,0), 
+             (0,1), (-1,0), (0,-1). Then label each of these with the proper degrees/radians: 0&deg; 
+             (0 radians), 90&deg; (\(\frac{\pi}{2}\)), 180&deg; (\(\pi\)), 270&deg; 
+             (\(\frac{3\pi}{4}\)), 360&deg; (\(2\pi\) which overlaps with 0&deg;/0 radians). 
+        </p>
+        <div id="tablepics">
+            <img src="./editedtable.png">
+            </div>
+         <p>The following terminology will be important as we discuss the unit circle further. The 
+             coordinate system has a labeling method that helps others know which part of the grid we 
+             are referring to. The quadrant (or section of the coordinate system) that has positive 
+             x and positive y values is referred to as Quadrant 1. Traveling counter-clockwise to the 
+             quadrant that has negative x values and positive y values gives us Quadrant 2. Continuing 
+             this pattern, the next two quadrants are named Quadrant 3 and Quadrant 4. This is the base 
+             of a unit circle. 
+        </p>
+        <img src="./CAST.jpg">
+         <p> Many students have learned the unit circle purely by memorization. However, there is a 
+             better way. One journal article entitled Trigonometry: Comparing ratio and unit circle 
+             methods explained, "Before the 1960s, introductory trigonometry was taught in Victorian 
+             schools using the ratio method, where trigonometric functions are defined as ratios of 
+             sides of right-angled triangles. With the advent of "new maths", the unit circle method 
+             was introduced. This study explored differences between the two methods for teaching 
+             introductory trigonometry. Eight classes of students were randomly allocated to either 
+             teaching method. The ratio method was found to be much more effective, resulting in 
+             better performance and retention in trigonometry and algebra, and more favorable attitudes" 
+             (Kendal 1996). Due to its better retention, I will explain the unit circle using the ratio 
+             method. 
+        </p>
+        <p>The unit circle connects to trigonometry when we insert triangles into our circle. We do this 
+            by placing one point of the triangle at the origin, another at the circumference of the circle,
+            and allowing the last point to reside at a right angle with the x axis. Since this is a unit 
+            circle, we know that the radius is 1. Therefore, the ray creating &theta; (with relation to the x 
+            axis) is the hypotenuse of this triangle, with a length of 1. We can label the ray on the x 
+            axis "a" and the height of the triangle "b". The point where the terminal ray and the unit 
+            circle intersects can be labeled as the coordinate (a,b). 
+        </p>
+        <p> You may be learned that a pneumonic called SOH CAH TOA can help us determine the ratios of 
+            values for each of the three main trigonometric functions for right triangles. The diagram 
+            below shows how this pneumonic related to these trigonometric functions. Sine, Cosine, and 
+            Tangent are the main functions used in Trigonometry and are based on a Right-Angled Triangle. 
+            Adjacent is adjacent (next to) to the angle &theta; (but it's a leg, not the hypotenuse). 
+            Hypotenuse is the long one that is opposite the right angle. The Opposite side refers to the 
+            side of the right triangle that is opposite the angle &theta;. Using these principles, we 
+            can better understand how the unit circle works. 
+        </p>
+        <div id="triangletypes">
+        <img src="./SOHCAHTOA.png">
+        </div>
+        <p> The following list explains how angles are determined on a unit circle. </p>
+
+        <p>Cos(&theta;)=x value on unit circle</p>
+       <p>Sin(&theta;)=y value on unit circle</p>
+        <p>Tan(&theta;)=y/x or Sin(&theta;)/Cos(&theta;)</p>
+    </p>
+        <p>Now we will discuss why these are the relationships that are used in the unit circle. Kahn 
+            Academy made a great video that walks through how to solve for a triangle's sides using 
+            different trigonometric principles. This video can be found here: 
+            <a href="https://www.youtube.com/watch?v=KoYZErFpZ5Q" target="blank">Solving the Unit Circle 
+                Using Trigonometry</a>. 
+            We know that cos (&theta;)=adjacent/hypotenuse. Earlier, we defined the adjacent side of our 
+            right triangle to be a. This adjacent side of the triangle is along the x axis; we 
+            discussed a relationship earlier between cos(&theta;)=the x value on the unit circle. Now 
+            we can come to understand more deeply why cos(&theta;)=the x value. Our hypotenuse is 1 
+            because it is the unit circle with radius 1. Thus, we have a/1. 
+            Sin(&theta;)=opposite/hypotenuse. Earlier we defined the opposite leg of the triangle to 
+            be b. So, we get b/1. The opposite side of the triangle is measuring the height of the 
+            y axis; we discussed a relationship earlier between sin(&theta;)=the y value on the unit 
+            circle. Similarly, we can come to understand more deeply why sin(&theta;)=the y value. 
+            Since cos(&theta;) represents the x value on the unit circle and sin(&theta;) represents 
+            the y value, we know that is coordinate point we named (a,b) could just as easily be 
+            written as (cos(&theta;), sin(&theta;)).
+        </p>
+        <p>These principles can be shown in the following applets. These applets show how sine and 
+            cosine relate to angles being created around the unit circle: </p>
+        <p><a href="https://www.mathsisfun.com/algebra/trig-interactive-unit-circle.html" target="blank">
+            Relationships Between the Unit Circle and Trigonometric Functions</a> </p>
+        <p><a href="https://phet.colorado.edu/sims/html/trig-tour/latest/trig-tour_en.html" target="blank">
+            Interactive Unit Circle and Trig</a></p> 
+        <p><a href="https://www.desmos.com/calculator/cpb0oammx7" target="blank">Desmos Graphing Circle 
+            and Sine and Cosine Waves</a></p>
+`   
+        <p>Now, we can't use this pneumonic SOH CAH TOA for all right triangles on the unit circle-it 
+            only works for triangles with &theta;&lt;90&deg;. It doesn't make a lot of sense when 
+            &theta; is larger than 90&deg; because SOH CAH TOA only works for triangles with right 
+            angles. &theta; and the right angle can't both be greater than or equal to 90&deg; because 
+            each triangle can only sum to 180&deg;. 
+        </p>
+        <p>However, we can use the principles we developed so far with our right triangle in Quadrant 1 
+            and extend those patterns to work for the rest of the unit circle. In each of the other 
+            quadrants, we can still say that cos(&theta;)=the x coordinate where the terminal side of 
+            &theta; intersects the unit circle, that sin(&theta;)=the y coordinate where the terminal 
+            side of &theta; intersects the unit circle, and that tan(&theta;)=the y coordinate/the x 
+            coordinate where the terminal side of &theta; intersects the unit circle. The triangles in 
+            the first quadrant are just reflections onto the other quadrants.  
+        </p>
+        <div id="tablepics">
+        <p><img src="Reflections 1.PNG"height="300em">
+        <img src="Reflections 2.PNG"
+        height="300em"></p>
+        </div>
+
+        <p>To find the specific coordinates in radians (\(\frac{\pi}{6}\),  \(\frac{\pi}{4}\), 
+            \(\frac{\pi}{3}\)), we will need to talk about properties of specific triangles. We will 
+            talk about a 45&deg;-45&deg;-90&deg; triangle (which relates to radian \(\frac{\pi}{4}\)) 
+            and a 30&deg;-60&deg;-90&deg; triangle (which relates to \(\frac{\pi}{6}\) and 
+            \(\frac{\pi}{3}\)). They each have very specific properties that will help us discuss how 
+            to find the proper coordinates for each section of the unit circle. The following link is 
+            an activity that helps guide students to discover these relationships. 
+            <a href="https://goformative.com/library/eSryH5LQW592MoXfq" target="blank">Special Right 
+                Triangle Properties Exploration Activity</a></p>
+        <div id="triangletypes">
+        <img src="./Triangle Types.jpg"> 
+        </div>
+        <br>
+        <img 
+        src="Triangles.png"
+        alt="30&deg; 60&deg; 90&deg; Triangle"
+        height="250em"
+    />
+        <p>First, we will discuss the 45&deg;-45&deg;-90&deg; triangle; this is also known as an 
+            isosceles triangle. Its two legs are the same length, and its two angles are also the same 
+            (excluding the right angle). This means that we could set up the Pythagorean Theorem to 
+            explain how to solve for these side lengths that we will name x:</p>
+        <p>	\[a^2+b^2=c^2 \rightarrow  x^2+x^2=1^2 \rightarrow 2x^2=1 \rightarrow x^2=\frac{1}{2} \]</p> 
+        <p>Our next step is to rationalize the denominator: </p>
+        <p>\[x=\frac{1}{\sqrt{2}} \rightarrow   x=\frac{1}{\sqrt{2}}*\frac{\sqrt{2}}{\sqrt{2}} 
+            \rightarrow \frac{\sqrt{2}}{2}\]</p>
+    </p>
+        <p>Since we were discussing an isosceles triangle with the same length for each of the legs, 
+            we know that we just found both the x and y component. Thus, our coordinate is 
+            \(\left(\sqrt{2}/2, \sqrt{2}/2\right)\).
+        </p>
+        <p>This relationship is true for an isosceles triangle in any quadrant (though the positive or 
+            negative signs preceding the x and y coordinate values vary depending on the quadrant you 
+            are talking about). Using the reflection principles discussed earlier, we can fill these 
+            values in for each \(\frac{\pi}{4}\) relationship going counter-clockwise around the unit 
+            circle. You can use the Geogebra applet at the bottom of this page to see where each of 
+            these values lie on the unit circle by selecting only the \(\frac{\pi}{4}\) checkbox. 
+        </p>
+        <p> Next, we can show a different relationship with a 30&deg;-60&deg;-90&deg; triangle. First, let's review 
+            the properties of a 30&deg;-60&deg;-90&deg; triangle. The side across from the 30-degree 
+            angle is the shortest leg of the triangle. The side across from the 60-degree angle is the 
+            longest leg of the triangle. Now we can discuss how the properties of a 30&deg;-60&deg;-90&deg; triangle 
+            are created. We will derive this triangle by first using an equilateral triangle with side 
+            lengths all equal to 1. We will bisect this equilateral triangle, with our line crossing 
+            evenly through one of the 60&deg; angles. This creates two 30&deg;-60&deg;-90&deg; triangles, 
+            each with one side length equal to 1/2. The hypotenuse for each of the triangles will still 
+            equal 1. Now we need to use this information to solve for the bisecting line (the height). 
+            We can use the cos(60&deg;)=opposite/1. Solving for the opposite side yields 
+            \(\frac{\sqrt{3}}{2}\). Thus, we can see that we have a 30&deg;-60&deg;-90&deg; 
+            triangle with side lengths \(\frac{1}{2}\), \(\frac{\sqrt{3}}{2}\), and 1. Additionally, 
+            you could come to the same conclusion by using the Pythagorean Theorem. 
+        </p>
+        <p>In the unit circle, we can split angles into smaller sections. For example, we can split 
+            the first quadrant into \(\frac{\pi}{6}\) and \(\frac{\pi}{3}\). Using the properties of 
+            30&deg;-60&deg;-90&deg; triangles that we just discovered, we can figure out the 
+            coordinates for these smaller sections.  \(\frac{\pi}{6}\) and  \(\frac{\pi}{3}\) are the 
+            radian versions of 30&deg; and 60&deg;. To find the coordinate point for the 30&deg; 
+            angle, we can line up a 30&deg;-60&deg;-90&deg; triangle with side lengths \(\frac{1}{2}\),
+            \(\frac{\sqrt{3}}{2}\), and 1 so that it has the 30&deg; angle created by the x axis and 
+            the terminal ray. When we do that, we see that we get a length value of 
+            \(x= \frac{\sqrt{3}}{2}\) and a height value of y=\(\frac{1}{2}\). This would yield the 
+            coordinate point (\(\frac{\sqrt{3}}{2},\frac{1}{2}\)). The opposite values are true when we 
+            line up that same triangle so the 60º angle is created by the x axis and the terminal ray. 
+            You would get x=\(\frac{1}{2}\) and y=\(\frac{\sqrt{3}}{2}\). This would yield the coordinate
+            point (\(\frac{1}{2}\), \(\frac{\sqrt{3}}{2}\)). The following link has a fun activity that 
+            students can do to check their understanding of this special triangle. 
+            <a href="https://www.geogebra.org/m/qkwxevxc" target="blank">Special Right Triangle Check 
+                Understanding Activity</a> 
+            The following video explains the properties of right triangles very clearly. 
+            <br>
+            <br>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/CgVW1hjKmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            
+        </p>
+        <p> Remembering these relationships can be very challenging for students at first. One trick 
+            that may help is thinking about the size of  \( \frac{1}{2} \)  and \(\frac{\sqrt{3}}{2} \). 
+            Which one is bigger? is larger than \(\frac{1}{2}\). When trying to remember the x 
+            coordinate for a 30&deg; angle, just look at the triangle drawn into the unit circle and 
+            think about which value should be larger-the x length or the y length. For the 30&deg; 
+            angle, we can see that the triangle has a  x value. This means that we should have 
+            \(\frac{\sqrt{3}}{2}\) as our x value and that the shorter side should be y=\(\frac{1}{2}\).
+            This would give us the coordinate point (\(\frac{\sqrt{3}}{2}\),\(\frac{1}{2}\)).  We can 
+            use the same thought process when thinking about the 60&deg; angle. This angle has a larger 
+            y length so the y value should have the larger number (\(\frac{\sqrt{3}}{2}\)). This would 
+            give us the coordinate point (\(\frac{1}{2}\),\(\frac{\sqrt{3}}{2}\)). This same 
+            relationship is true for the entire unit circle except the positive and negative signs 
+            change depending on which quadrant you are in. </p>
+        <p>It is important to practice creating the unit circle; this aids in understanding and 
+            memorization. There are many fun games that students can use to help them learn the unit 
+            circle better. 
+        </p>
+        <p>
+            The following link is a video game that allows multiple people to compete at filling out 
+            the unit circle values based on the prompts they receive.</p>
+            <p> <a href="https://www.mathwarehouse.com/unit-circle/unit-circle-game.php" target="blank">
+                Unit Circle Competition Game</a>
+        </p>
+       
+        <p>
+            Another fun game requires you to fill in the correct answer for the angles on the unit 
+            circle to launch a pie at an octopus! Let's hope you don't miss!</p>
+        <p> <a href=" https://www.nctm.org/Classroom-Resources/Illuminations/Interactives/Pi-Fight/" target="blank">
+            Octopus Pie Unit Circle Game</a></p>
+        </p>
+        <p>
+            The following Geogebra applet can help students visualize the relationships between 
+            coordinate points, radians, degrees, and triangles. The following video discusses the 
+            properties about certain right triangles that we discussed earlier. 
+        </p>
+        
+            <br>
+            <iframe scrolling="no" title="The Unit Circle" src="https://www.geogebra.org/material/iframe/id/hxqd9c2z/width/1110/height/834/border/888888/sfsb/true/smb/false/stb/false/stbh/false/ai/false/asb/false/sri/true/rc/false/ld/false/sdz/true/ctl/false" width="1110px" height="834px" style="border:0px;"> </iframe>
+            <br>
+           
+          
+            </div>
+
+                <br>
+                <a href="#top">Top of page</a>
+    </div>  
+<br><br><br>
+<script src="index.js"></script>
+</body>

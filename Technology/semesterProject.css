@@ -1,0 +1,100 @@
+#mainBody{
+    margin-top:11em;
+}
+
+#menubuttons{
+    border:none;
+    display:flex;
+    background-color: #4a4e69;
+
+}
+
+#menubuttons a{
+    font-size:2em;
+    border: 0px;
+    flex-grow:1;
+    color: #56cfe1;
+    width: 15%;
+    padding: 10px;
+    text-decoration: none;
+}
+
+#title a{
+    color:#313236;
+    text-decoration: none;
+}
+#title a:visited{
+    color:#313236;
+}
+
+#menubottons a:link, #menubuttons a:visited {
+    color: #56cfe1;
+}
+#menubuttonrs a:hover {
+    color: white;
+}
+.normaltext img{
+    margin:auto;
+    text-align:center;
+    display:block;
+}
+.normaltext {
+    width: fit-content;
+    margin-left:4em;
+    margin-right:4em;
+    font-family:verdana;
+    color: #4a4e69;
+}
+
+#pig{
+    margin:auto;
+    width: fit-content;
+   
+}
+
+#compasspics img{
+    display:inline;
+    margin:auto;
+    height:300px;  
+    margin:15px;
+}
+#compasspics{
+    text-align:center;
+}
+
+#geometricprinciples{
+    text-align:left;
+}
+#tablepics img{
+    display:inline;
+    margin:auto;
+    margin: 15px;
+   height: 150 px;
+}
+#tablepics{
+    text-align:center;
+}
+#triangletypes img{
+   height: 200px;
+}
+
+#titles{
+    font-size:2em;
+    font-family:verdana;
+}
+
+#tablepics12 img{
+    display:inline;
+    margin:auto;
+    margin: 15px;
+   height: 220px;
+}
+#tablepics12{
+    text-align:center;
+}
+#tablepics1{
+    display:inline;
+    margin:auto;
+    margin: 15px;
+   height: 100 px;
+}
