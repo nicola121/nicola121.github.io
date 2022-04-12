@@ -33,5 +33,5 @@ function loadTopBar() {
 }
 
 
-
+loadTopBar();
 loadSideNav();
