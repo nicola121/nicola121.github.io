@@ -33,5 +33,7 @@ function loadTopBar() {
 }
 
 
-loadTopBar();
-loadSideNav();
+document.onload = (){
+  loadTopBar();
+  loadSideNav();
+}
