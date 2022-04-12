@@ -7,8 +7,8 @@ function closeNav() {
 }
 
 function loadSideNav() {
-  element = document.getElementById("sidenav");
-  xhttp = new XMLHttpRequest();
+  var element = document.getElementById("sidenav");
+  var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4) {
       if (this.status == 200) {element.innerHTML = this.responseText;}
@@ -20,8 +20,8 @@ function loadSideNav() {
 }
 
 function loadTopBar() {
-  element = document.getElementById("topBar");
-  xhttp = new XMLHttpRequest();
+  var element = document.getElementById("topBar");
+  var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (this.readyState == 4) {
       if (this.status == 200) {element.innerHTML = this.responseText;}
