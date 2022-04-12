@@ -35,7 +35,7 @@ body{
     transition: 0.4s;
 }
 #menu {
-    display:none;
+    /* display:none; */
     padding-top:1em;
     padding-left:.5em;
     float: left;
