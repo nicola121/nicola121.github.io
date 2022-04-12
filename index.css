@@ -156,5 +156,6 @@ iframe{
 
 .pdfView {
     width:90%;
-    height: 500px;
+    height: 800px;
+    margin-bottom:2em;
 }
