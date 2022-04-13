@@ -89,9 +89,9 @@ body{
     top: 0;
     left: 0;
     background-color: #4a4e69;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
     transition: 0.5s;
-    padding-top: 60px;
+    /* padding-top: 60px; */
       }
   #sidenav a {
     padding: 8px 8px 8px 32px;

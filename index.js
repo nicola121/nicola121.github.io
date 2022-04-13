@@ -32,8 +32,20 @@ function loadTopBar() {
   xhttp.send();
 }
 
+function setTitle() {
+  var side = getElementById("sidenav").children[0];
+  for (var i = 0; i < side.childElementCount; i++)
+  {
+    var link = side.children[i].children[0].attributes;
+    if (link.href == "." + window.location.pathname)
+    {
+      getElementById("title").innerHTML = link.innerHTML;
+    }
+  }
+}
+
 
 window.onload = function () {
-  loadTopBar();
   loadSideNav();
+  loadTopBar();
 }
