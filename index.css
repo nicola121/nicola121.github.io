@@ -10,6 +10,7 @@ body{
     margin-bottom:.15em;
 }
 .normaltext{
+    line-height: 1.5;
     background-color:#caf0f8;
     text-align: left;
     padding:.3em;
@@ -25,6 +26,7 @@ body{
     font-size: large;
 }
 .rightShifted{
+    line-height: 1.5;
     background-color:#caf0f8;
     text-align: left;
     padding:.3em;
