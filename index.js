@@ -47,6 +47,4 @@ function setTitle() {
 
 window.onload = function () {
   loadSideNav();
-  loadTopBar();
-  setTitle();
 }
