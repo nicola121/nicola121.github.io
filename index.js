@@ -33,7 +33,7 @@ function loadTopBar() {
 }
 
 function setTitle() {
-  var side = getElementById("sidenav").children[0];
+  var side = document.getElementById("sidenav").children[0];
   for (var i = 0; i < side.childElementCount; i++)
   {
     var link = side.children[i].children[0].attributes;
