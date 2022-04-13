@@ -3,7 +3,7 @@ body{
 }
 #title{
     text-align: center;
-    font-family: playfair;
+    font-family: kaushan;
     color: #313236;
     width: 100%;
     margin-top:.5em;
@@ -21,7 +21,7 @@ body{
     margin-right:1em;
     margin-left:1em;
     margin-bottom: 1.5em;
-    font-family: playfair;
+    font-family: kaushan;
     font-size: large;
 }
 .rightShifted{
@@ -36,7 +36,7 @@ body{
     margin-right:1em;
     margin-left:18em;
     margin-bottom: 1.5em;
-    font-family: playfair;
+    font-family: kaushan;
     font-size: large;
 }
 #topdiv {
