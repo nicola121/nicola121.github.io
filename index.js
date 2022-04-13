@@ -39,7 +39,7 @@ function setTitle() {
     var link = side.children[i].children[0].attributes;
     if (link.href == "." + window.location.pathname)
     {
-      getElementById("title").innerHTML = link.innerHTML;
+      document.getElementById("title").innerHTML = link.innerHTML;
     }
   }
 }
