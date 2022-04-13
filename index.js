@@ -36,8 +36,8 @@ function setTitle() {
   var side = document.getElementById("sidenav").children[0];
   for (var i = 0; i < side.childElementCount; i++)
   {
-    var link = side.children[i].children[0].attributes;
-    if (link.href == "." + window.location.pathname)
+    var link = side.children[i].children[0];
+    if (link.attributes.href == "." + window.location.pathname.toString())
     {
       document.getElementById("title").innerHTML = link.innerHTML;
     }
