@@ -42,9 +42,16 @@ function setTitle() {
   for (var i = 0; i < side.childElementCount; i++)
   {
     var link = side.children[i].children[0];
-    if (link.attributes.href.nodeValue == "." + window.location.pathname)
+    if (link.attributes.href.nodeValue === "." + window.location.pathname)
     {
-      document.getElementById("title").innerHTML = link.innerHTML;
+      if (link.attributes.href.nodeValue === "./")
+      {
+        document.getElementById("title").innerHTML = "Nicola Baird";
+      }
+      else
+      {
+        document.getElementById("title").innerHTML = link.innerHTML;
+      }
     }
   }
 }
