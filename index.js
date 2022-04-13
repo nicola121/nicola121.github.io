@@ -50,4 +50,6 @@ function setTitle() {
 
 window.onload = function () {
   loadTopBar();
+  loadSideNav();
+  setTitle();
 }
