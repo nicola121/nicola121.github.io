@@ -15,6 +15,7 @@ function loadSideNav() {
       if (this.status == 200) {element.innerHTML = this.responseText;}
       if (this.status == 404) {element.innerHTML = "Page not found.";}
     }
+    setTitle();
   }
   xhttp.open("GET", "./sidenav.html", true);
   xhttp.send();
@@ -29,6 +30,7 @@ function loadTopBar() {
       if (this.status == 200) {element.innerHTML = this.responseText;}
       if (this.status == 404) {element.innerHTML = "Page not found.";}
     }
+    loadSideNav();
   }
   xhttp.open("GET", "./topBar.html", true);
   xhttp.send();
@@ -50,6 +52,4 @@ function setTitle() {
 
 window.onload = function () {
   loadTopBar();
-  loadSideNav();
-  setTitle();
 }
