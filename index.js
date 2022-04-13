@@ -7,6 +7,7 @@ function closeNav() {
 }
 
 function loadSideNav() {
+  console.log("Side Bar Loading");
   var element = document.getElementById("sidenav");
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -20,6 +21,7 @@ function loadSideNav() {
 }
 
 function loadTopBar() {
+  console.log("top bar loading");
   var element = document.getElementById("topBar");
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
@@ -33,6 +35,7 @@ function loadTopBar() {
 }
 
 function setTitle() {
+  console.log("setting page title");
   var side = document.getElementById("sidenav").children[0];
   for (var i = 0; i < side.childElementCount; i++)
   {
